@@ -1,5 +1,43 @@
 body,
 #root {
   margin: 0;
-  height: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  margin: 0px 10px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+header > div:first-child {
+  width: 100px;
+}
+
+header > div {
+  width: 100%;
+}
+header ul {
+  display: flex;
+}
+header a {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.header-ul {
+  justify-content: end;
+  list-style: none;
+  gap: 7px;
+}
+
+.main-header a {
+  text-transform: uppercase;
+}
+.sub-header > li {
+  align-items: end;
 }

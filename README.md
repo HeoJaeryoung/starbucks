@@ -16,3 +16,13 @@ git add .
 git commit -m "메세지"
 git push
 ```
+
+```bash
+# 리엑트 프로젝트는 패키지 설치 후 사용 가능
+npm install
+npm run start
+```
+
+---
+
+node_modules 는 패키지가 설치된 경로
